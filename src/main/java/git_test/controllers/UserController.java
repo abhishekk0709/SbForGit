@@ -12,6 +12,9 @@ public class UserController {
 	public String hell() {
 		return "Hi";
 	}
-	
+	@GetMapping("/record")
+	public String record() {
+		return "record";
+	}
 
 }
